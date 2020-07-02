@@ -52,8 +52,31 @@ var newNumber = number.toFixed(2)
 newNumber will be 1.27
 => round the number design number of digit after point
 => if we does not supply parameter then it will finish number after point
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~Lecrure 31-32~
+Date
 
+var rightNow = new Date();
+above will extract all information related to date time and time zone
+but this is not string string methods will not work like chartAt etc
+we can extract individual part like this
 
+var day = rightNow.getDay();
+but above code will return number
+sunday start from 0 and then end with saturday 6
+var dayName = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
+document.write(dayName[day])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~Lecrure 35-36-37-38
 
+functions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~Lecrure 39-40
 
+switch
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~Lecrure 41-42
+
+while do while
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
