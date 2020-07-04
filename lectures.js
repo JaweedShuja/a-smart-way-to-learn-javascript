@@ -79,4 +79,45 @@ switch
 
 while do while
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~Objects~
 
+we can also create new properties to object like this
+
+var person = {
+	name:"abc",
+	height:"123"
+}
+
+person.color : "red";
+
+we can also delete a property in object
+
+delete person.color;
+
+we can also check either specific property exist in object
+
+var propertyExist = "weight" in person;
+
+we can also define constructor even without specifying object
+like this
+
+function Person(name, age, height){
+	this.name = name;
+	this.age = age;
+	this.height = height;
+}
+
+var javed = new Person('javed','24','5');
+
+prototypes in object
+aik method hai jo teno method me same ha to constructor method k zarye nahi bnaenge keonke wo
+teen bar copy horaha hai 
+is se acha ham ka iska prototype bna lenge then wo ham bad me use karsakte hai
+like this
+
+Person.prototype.walk = function(){
+	document.write(run())
+}
+
+iske elawa ham prototype me function k elawa properties bhi use karsakte hai
+Person.prototype.isAlive = 'yes';
