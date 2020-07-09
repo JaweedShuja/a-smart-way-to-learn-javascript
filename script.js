@@ -1,6 +1,47 @@
-function expandLoris() {
+function checkPassword() {
     
-    var expandedParagraph = "Slow lorises are a group of several species of trepsirrhine primates which make up the genus Nycticebus. They have a round head, narrow snout, large eyes, and a variety of distinctive coloration patterns that are species-dependent. The hands and feet of slow lorises have several adaptations that give them a pincer-like grip and enable them to grasp branches for long periods of time. Slow lorises have a toxic bite, a rare trait among mammals.";
+    try {
     
-    document.getElementById("slowLoris").innerHTML = expandedParagraph;
+    var pass = document.getElementById("f1").value;
+    
+    if (pass.length < 8) {
+    
+    throw "Please enter at least 8 characters.";
+    
+    }
+    
+    if (pass.indexOf(" ") !== -1) {
+    
+    throw "No spaces in the password, please.";
+    
+    }
+    
+    var numberSomewhere = false;
+    
+    
+    for (var i = 0; i < pass.length; i++) {
+    
+    if (isNaN(pass(i, i+1)) === false) {
+    
+    numberSomewhere = true;
+    
+    break;
+    }
+     
+    }
+     
+    if (numberSomewhere === false) {
+     
+    throw "Include at least 1 number.";
+     
+    }
+     
+    }
+     
+    catch(err) {
+     
+    alert(err);
+     
+    }
+
      }
