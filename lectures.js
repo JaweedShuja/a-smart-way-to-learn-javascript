@@ -120,4 +120,4 @@ Person.prototype.walk = function(){
 }
 
 iske elawa ham prototype me function k elawa properties bhi use karsakte hai
-Person.prototype.isAlive = 'yes';
+Person.prototype.isAlive = 'yes';   
