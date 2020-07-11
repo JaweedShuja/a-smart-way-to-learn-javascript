@@ -29,7 +29,7 @@ function checkPassword() {
     }
      
     }
-     
+              
     if (numberSomewhere === false) {
      
     throw "Include at least 1 number.";
