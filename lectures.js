@@ -85,7 +85,7 @@ we can also create new properties to object like this
 
 var person = {
 	name:"abc",
-	height:"123"
+	height:"123"     
 }
 
 person.color : "red";
